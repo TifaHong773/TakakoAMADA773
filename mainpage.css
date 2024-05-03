@@ -1,0 +1,152 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: linear-gradient(to top left, #18bcdd, #05d4f8);
+    height: fit-content;
+}
+
+header{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: 15px;
+}
+
+.navbar-brand{
+    color: #f0bf71;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+main{
+    font-size: large;
+}
+
+
+.nav-link{
+    font-size: 135%;
+    color: white;
+}
+
+svg{
+    color: white;
+    margin-right: auto;
+}
+
+.profile{
+    padding-top: 5%;
+}
+
+article h1{
+    color: #016ddc;
+    font-weight: 800;
+}
+
+button{
+    background-color: #29edbf;
+    border: none;
+    border-radius: 10px;
+    color: azure;
+    padding: 10px;
+}
+
+#contact-section{
+    padding-bottom: 90px;
+}
+
+.contact-container{
+    height: 30vh;
+    display: start;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.contact-title h3{
+    font-weight: 550;
+    text-align: center;
+    color: #016ddc;
+    margin-bottom: 5px;
+}
+
+hr{
+    border: none;
+    background-color: #022b8a;
+    border-radius: 10px;
+    height: 5px;
+    width: 310px;
+}
+
+#contact-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.input-row{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.contact-inputs{
+    color: gray;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    outline: none;
+}
+
+.contact-inputs:focus{
+    border: 3px solid #008ca8;
+}
+
+.contact-message{
+    width: 35%;
+    color: gray;
+    text-align: left;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.contact-message:focus{
+    border: 3px solid #008ca8;
+}
+
+textarea{
+    padding-left: 10px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+footer{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: 15px;
+    padding-top: 50%;
+    width: 100%;
+    position: absolute;
+    background:linear-gradient(#38c98f, #00a5be);
+}
+
+footer h3{
+    padding-top: 50px;
+    margin-bottom: start;
+    margin-left: 10px;
+    font-weight: 700;
+    color: #f0bf71;
+    width: 100%;
+}
